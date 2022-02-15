@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Tabs with js DOM</h1>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section__header">
+          <h2 class="section__title">Tabs example</h2>
+          <h3 class="section__description">Three types of workouts</h3>
+        </div>
+
+        <div class="tabs">
+          <div class="tabs__btn-container">
+            <button class="btn btn--active" data-tab="1">Strength</button>
+
+            <button class="btn" data-tab="2">Endurance</button>
+
+            <button class="btn" data-tab="3">Stretching</button>
+          </div>
+
+          <div class="tabs__item--1 tabs__item--active tabs__item">
+            <div class="tabs__icon tabs__icon--1">
+              <img
+                src="dist/assets/img/barbell.svg"
+                alt=""
+                width="60"
+                height="60"
+              />
+            </div>
+
+            <div class="tabs__header">Strength training</div>
+
+            <p class="tabs__text">
+              Strength training, also known as resistance training, causes
+              contractions of the muscles via external resistance. The
+              resistance can come from using barbells, dumbbells, resistance
+              bands, strength machines or a person's own body weight.
+            </p>
+          </div>
+          <div class="tabs__item--2 tabs__item">
+            <div class="tabs__icon tabs__icon--2">
+              <img
+                src="dist/assets/img/bike.svg"
+                alt=""
+                width="60"
+                height="60"
+              />
+            </div>
+
+            <div class="tabs__header">Endurance Training</div>
+
+            <p class="tabs__text">
+              Endurance exercise, also known as aerobic exercise, helps develop
+              stamina. It can also improve the functioning of the heart and
+              lungs. Another benefit of endurance exercise is an increase in the
+              body's metabolic rate, which helps a person burn calories long
+              after their workout is complete and assist in a person's
+              body-reshaping efforts.
+            </p>
+          </div>
+          <div class="tabs__item--3 tabs__item">
+            <div class="tabs__icon tabs__icon--3">
+              <img
+                src="dist/assets/img/streching.svg"
+                alt=""
+                width="60"
+                height="60"
+              />
+            </div>
+
+            <div class="tabs__header">Static Stretching</div>
+
+            <p class="tabs__text">
+              As we age, our muscles become inflexible and taut. To combat
+              muscle inflexibility, static stretching is recommended. Benefits
+              of static stretching include enhanced range of motion, stronger
+              joints, better physical performance while playing sports and a
+              decrease in pain throughout the body.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__link">
+        <a
+          href="https://github.com/AnnQK?tab=repositories"
+          class="footer__link__github"
+          ><img
+            src="dist/assets/img/github.png"
+            alt="github logo"
+            class="section__link__logo"
+            height="30"
+            width="70"
+        /></a>
+      </section>
+    </footer>
+    <script src="dist/script/app.js"></script>
+  </body>
+</html>
