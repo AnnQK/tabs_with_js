@@ -1,1 +1,101 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  margin-top: 1rem;
+}
+
+.section {
+  text-align: center;
+}
+
+.section__header {
+  margin-bottom: 2rem;
+}
+
+.tabs__btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tabs__btn-container .btn {
+  border: none;
+  padding: 0.5rem;
+  background-color: cadetblue;
+  border-radius: 1rem;
+  opacity: 0.8;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.tabs__btn-container .btn:hover {
+  background-color: cornflowerblue;
+}
+
+.tabs__btn-container .btn--active {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.tabs__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  opacity: 0.9;
+  width: 500px;
+  height: 270px;
+  display: none;
+  background-color: beige;
+}
+
+.tabs__item--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */
