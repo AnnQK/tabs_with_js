@@ -1,1 +1,1 @@
-# tabs_with_js
+# Working with js DOM
